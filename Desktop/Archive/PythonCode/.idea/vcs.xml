@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/vmw-job-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vnw-benifit-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vnw-category-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vnw-company-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vnw-location-service" vcs="Git" />
+  </component>
+</project>
