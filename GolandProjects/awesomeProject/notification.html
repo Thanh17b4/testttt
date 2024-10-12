@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSocket Client</title>
+</head>
+<body>
+<h1>WebSocket Client</h1>
+<ul id="notifications"></ul>
+
+<script>
+    var socket = new WebSocket("ws://localhost:8080/ws");
+
+    socket.onmessage = function(event) {
+        var notifications = document.getElementById("notifications");
+        var newNotification = document.createElement("li");
+        newNotification.textContent = event.data;
+        notifications.appendChild(newNotification);
+    };
+</script>
+</body>
+</html>
