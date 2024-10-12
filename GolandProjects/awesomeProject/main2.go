@@ -24,5 +24,5 @@ func main() {
 
 	// In ra giá trị đã định dạng
 	a := fmt.Sprintf("%s, %s\n", formatFloat(value1), formatFloat(value2))
-	fmt.Println(a)
+	fmt.Println("a: ", a)
 }
