@@ -1,5 +1,0 @@
-
-,python:S1700"Rename field "email"(ü³ŸÌ
-4python:S2772"Remove this unneeded "pass".(ã‘Û¾
-hpython:S100"LRename method "sendMail" to match the regular expression ^[a-z_][a-z0-9_]*$.(ÕÚ‹æüÿÿÿÿ
-tpython:S100="XRename method "sendVerificationCode" to match the regular expression ^[a-z_][a-z0-9_]*$.(Ëƒ×ïûÿÿÿÿ
