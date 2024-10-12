@@ -62,3 +62,5 @@
         ../../go/
         ../../java_error_in_goland_2360.log
         ../../jbr_err_pid2360.log
+        .gitignore
+        .idea/
